@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== UNICONS ==========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--========== BOXICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== SWIPER CSS ==========-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--========== MAIN CSS ==========-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Responsive portfolio website</title>
+</head>
+
+<body>
+    <!--========== SIDEBAR ==========-->
+    <div class="nav_toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav_logo">
+                <a href="index.html" class="nav_logo_text">P</a>
+            </div>
+            <div class="nav_menu">
+                <div class="menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link  active-link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">About</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">Skills</a>
+                    </li>
+                    <!-- <li class="nav_item">
+                        <a href="#" class="nav_link">Services</a>
+                    </li> -->
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+            <div class="btn_share">
+                <i class="uil uil-share-alt social_share"></i>
+            </div>
+
+            <div class="nav_close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
+        </nav>
+    </aside>
+    <!--========== MAIN ==========-->
+    <main class="main">
+        <!--===== Home =====-->
+        <section class="home" id="home">
+            <div class="home_container container grid">
+                <div class="home_social">
+                   <span class="home_social-follow">Follow me</span>
+                   <div class="home_social-links">
+                       <!-- <a href="https://www.facebook.com/" target="_blank" class="home_social-link">
+                           <i class="uil uil-facebook-f"></i>
+                        </a> -->
+                        <a href="https://wa.me/917020502658" target="_blank" class="home_social-link">
+                           <i class="uil uil-whatsapp"></i>
+                       </a>
+                        <a href="https://twitter.com/PratikG_29" target="_blank" class="home_social-link">
+                           <i class="uil uil-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <img src="img/home.jpg" alt="" class="home_img">
+                <div class="home_data">
+                    <h1 class="home_title">Hi, I'm Pratik</h1>
+                    <h3 class="home_subtitle">Competetive Programmer</h3>
+                    <p class="home_desc">Attentive learner   <br> CSE Undergrad </p>
+                    <a href="#about" class="button">
+                        <i class="uil uil-user button_icon"></i>
+                        More About Me
+                    </a>
+                </div>
+                <div class="my_info">
+                    <div class="info_item">
+                        <i class="uil uil-facebook-messenger info_icon"></i>
+                        <div>
+                            <h3 class="info_title"> Messenger</h3>
+                                <span class="info_subtitle">Pratik</span>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my_info"style="left: 170px;">
+                    <div class="info_item">
+                        <i class="uil uil-whatsapp info_icon"></i>
+                        <div>
+                            <h3 class="info_title">Whatsapp</h3>
+                                <span class="info_subtitle">7020502658</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my_info" style="left: 356px;">
+                    <div class="info_item">
+                        <i class="uil uil-envelope-edit info_icon"></i>
+                        <div>
+                            <h3 class="info_title">Email</h3>
+                                <span class="info_subtitle">gawandepratik1234@gmail.com</span>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--===== About =====-->
+        <section class="about section" id="about">
+            <h2 data-heading="My Introduction" class="section_title">About Me</h2>
+            <div class="about_container container grid">
+                <img src="./img/abt.jpg"  alt="" class="about_img">
+                <div class="about_data">
+                    <h3 class="about_heading">Hi ! Im pratik ,</h3>
+                    <p class="abot_desc">A Competitive Programmer having hands on coding experience in problem solving with good knowledge of Data Structures , currently studying in the third year of
+                        bachelor's degree in Computer Science and Engineering.. My objective is to work with
+                        maximum potential in a challenging and dynamic environment to enhance my
+                        professional skills.</p>
+                    <div class="about_info grid">
+                        <div class="about_box">
+                            <i class="uil uil-award about_icon"></i>
+                            <h3 class="about_title">experience</h3>
+                            <span class="about_subtitle">0 years</span>
+                        </div>
+
+                        <div class="about_box">
+                            <i class="uil uil-suitcase-alt about_icon"></i>
+                            <h3 class="about_title">Completed</h3>
+                            <span class="about_subtitle">1 Project</span>
+                        </div>
+
+                        <div class="about_box">
+                            <i class="uil uil-headphones-alt about_icon"></i>
+                            <h3 class="about_title">Support</h3>
+                            <span class="about_subtitle">24*7</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="button">
+                        <i class="uil uil-navigator button_icon"></i>
+                        contact me!
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--===== Qualification =====-->
+        <section class="qualification section">
+            <h2 data-heading="My Journey" class="section_title">Qualification </h2>
+            <div class="qual_cont container grid">
+                <div class="qualification">
+                    <h3 class="qualification_title">
+                        <i class="uil uil-graduation-cap"></i> Education
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline_item">
+                            <div class="circle_dot">
+                                <h3 class="timeline_title">Maharashtra Board</h3>
+                                <p class="timeline_text">Secondary</p>
+                                <span class="timeline_date">
+                                    <i class="uil uil-calender-alt"></i>
+                                    2015-2016
+                                    <br><br> 88.20%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline_item">
+                            <div class="circle_dot">
+                                <h3 class="timeline_title">Maharashtra Board</h3>
+                                <p class="timeline_text">Higher Secondary </p>
+                                <span class="timeline_date">
+                                    <i class="uil uil-calender-alt"></i>
+                                    2016-2018 <br> <br> 71.54%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline_item">
+                            <div class="circle_dot">
+                                <h3 class="timeline_title">PRMIT&R</h3>
+                                <p class="timeline_text">Bachlor of Engineering</p>
+                                <span class="timeline_date">
+                                    <i class="uil uil-calender-alt"></i>
+                                    2019-Present 
+                                    <br><br> 9.4 CGPA
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--===== Skills =====-->
+        <section class="skills section" id="skills">
+            <h2 data-heading="My Abilities" class="section_title">Skills </h2>
+            <div class="skills_cont container grid">
+                <div class="skills_tabs">
+                    <div class="skills_header skills_active " data-target="#Technical">
+                        <i class="uil uil-brackets-curly skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Technical SKills</h1>
+                            <span class="skills_subtitle">Languages</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+
+                    <div class="skills_header  " data-target="#Personal">
+                        <i class="uil uil-swatchbook skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Personal Skills</h1>
+                            <span class="skills_subtitle">Technologies</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+
+                    <div class="skills_header " data-target="#Web">
+                        <i class="uil uil-server-network skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Web Development</h1>
+                            <span class="skills_subtitle">Designing</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                </div>
+                <div class="skills_content">
+                    <div class="skills_group skills_active" data-content id="Technical">
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">PYTHON</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">CPP</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">DBMS</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 60%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">SQL</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_group" data-content id="Personal">
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">AWS</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 60%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">ML</h3>
+                                    <span class="skills_number">30%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 30%;"></span>
+                                </div>
+                            </div>
+                            <!-- <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">DBMS</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 50%;"></span>
+                                </div>
+                            </div> -->
+                            
+                        </div>
+                    </div>
+                    <div class="skills_group" data-content id="Web">
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 60%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_title">
+                                    <h3 class="skills_name">JS</h3>
+                                    <span class="skills_number">30%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage" style="width: 30%;"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== Work =====-->
+        
+        <!-- Portfolio Popup -->
+        
+        <!--===== Services =====-->
+        
+        <!--===== Testimonials =====-->
+        
+        <!--===== Contact =====-->
+        <section class="contact section" id="contact">
+            <h2 data-heading="Get in Touch" class="section_title">Contact ME </h2>
+
+            <div class="contact_cont container grid">
+                <div class="contact_content">
+                    <div class="contact_info">
+                        <div class="contact_card">
+                            <i class="uil uil-envelope-edit contact_card-icon"></i>
+                            <h3 class="contact_card-title">Email</h3>
+                            <span class="contact_card-data">gawandepratik1234@gmail.com</span>
+                            <span class="contact_button">
+                                Write Me <i class="uil uil-arrow-right contact_button-icon"></i>
+                            </span>
+                        </div>
+                        <div class="contact_card">
+                            <i class="uil uil-whatsapp contact_card-icon"></i>
+                            <h3 class="contact_card-title">Whatsapp</h3>
+                            <span class="contact_card-data">7020502658</span>
+                            <span class="contact_button">
+                                
+                                Write Me <i class="uil uil-arrow-right contact_button-icon"></i>
+                                
+                            </span>
+                        </div>
+                        <div class="contact_card">
+                            <i class="uil uil-facebook-messenger contact_card-icon"></i>
+                            <h3 class="contact_card-title">Messenger</h3>
+                            <span class="contact_card-data">user.fb123</span>
+                            <span class="contact_button">
+                                Write Me <i class="uil uil-arrow-right contact_button-icon"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_content">
+                    <form action="" class="contact_form">
+                        <div class="input_cont">
+                            <input type="text" class="input">
+                            <label for="">UserName</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input_cont">
+                            <input type="email" class="input">
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input_cont">
+                            <input type="tel" class="input">
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input_cont textarea">
+                            <textarea name="" id="" class="input" ></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <button type="submit" class="button">
+                            <i class="uil uil-navigator button_icon"></i>
+                            Send Message!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_cont container grid">
+                    <div>
+                        <h1 class="footer_title">Pratik</h1>
+                        <span class="footer_subtitle">Competetive Programmer</span>
+                    </div>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#skills" class="footer_link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="footer_link">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer_link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="footer_socials">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer_social">
+                            <i class="uil uil-facebook-f"></i>
+                         </a>
+                         <a href="https://www.instagram.com/" target="_blank" class="footer_social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                         <a href="https://twitter.com/" target="_blank" class="footer_social">
+                            <i class="uil uil-twitter"></i>
+                         </a>
+                    </div>
+                </div>
+                <p class="footer_copy">&#169;Pratik Gawande.All right Reserved.2022-2023</p>
+            </div>
+        </footer>
+    </main>
+
+    <!--========== SCROLL UP ==========-->
+    
+
+    <!--========== MIXITUP FILTER ==========-->
+    <script src="js/mixitup.min.js"></script>
+
+    <!--========== SWIPER JS ==========-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
